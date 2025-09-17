@@ -1,0 +1,628 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 77px 124px;
+}
+
+.navigation {
+    display: flex;
+    gap: 106px;
+    box-sizing: border-box;
+    font-family: "Nunito Sans";
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+header>.icon{
+    display: flex;
+    gap: 85px;
+}
+
+.logo{
+    font-weight: 900;
+    color: #000000;
+}
+
+.back{
+    position: absolute;
+    width: 896;
+    height: 698.5;
+    opacity: 1;
+    top: 217.5px;
+    left: -3px;
+    border-width: 2px;
+
+    z-index: -1;
+
+}
+
+
+
+.rect{
+    position: absolute;
+    left: 0;
+
+}
+
+.left>h2{
+    color: #F7515C;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom:  62px;
+}
+
+.main{
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+
+.left>p{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 47px;
+}
+.left{
+    padding-top: 112px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.button-main{
+    display: flex;
+    flex-direction: row;
+    gap: 67px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.discover{
+    height: 78px;
+    width: 207px;
+    background: #F7515C;
+    color: white;
+    cursor: pointer;
+    border: none   ;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 22px;
+    transition: 0.5s all ease;
+}
+
+.discover:hover{
+    background: #000000;
+    transition: 0.5s all ease;
+}
+.watch{
+    align-items: center;
+    gap: 24px;
+    display: flex;
+}
+
+.watch>span{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 22px;
+}
+.circle1{
+    box-shadow: 0px 4px 70px 0px #00000026;
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    
+}
+
+
+
+.photo-pg2{
+    display: flex;
+    padding-top: 250px;
+    padding-left: 100px;
+ }
+
+ .about-row{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 711px;
+    gap: 40px;
+    margin-top: -379px;
+
+
+ }
+
+ .tochka{
+    width: 482.074462890625;
+    height: 306.2896728515625;
+
+    top: 1650px;
+    left: 192px;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 100px;
+    }
+
+
+
+
+
+.text-about>h3{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 60px;
+    border: 2px;
+
+
+}
+
+.text-p2{
+    display: flexbox;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #7A7A7A;
+    padding-bottom: 100px;
+    width: 445px;
+    margin-top: 55px;
+
+    
+    
+}
+
+
+.furniture-outline {
+  font-size: 120px;
+  margin: 0;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 2px #000;
+    
+
+}
+
+ .read-button{ 
+    display: flex;
+    margin-top: 340px;
+    margin-left: -565px;
+    
+ }
+
+.read-button button{
+    background-color: #F7515C;
+    border: none;
+    color: white;
+    width: 207px;
+    height: 78px;
+    left: 100px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 22px;
+    transition: 0.6s all ease;
+    cursor: pointer;
+ }
+
+ .read-button button:hover{
+    background: black;
+    transition: 0.6s all ease;
+ }
+
+.sqa{
+    width: 440;
+    height: 305;
+    opacity: 1;
+    top: 1460px;
+    left: 192px;
+    position: absolute;
+    z-index: -1;
+}
+
+.sqa1{
+    width: 205;
+    height: 180;
+
+    opacity: 1;
+    top: 1670px;
+    left: 52px;
+    position: absolute;
+    z-index: -1;
+}
+
+.te{    
+    width: 428;
+    height: 49;
+    angle: 0 deg;
+    opacity: 1;
+    top: 2242px;
+    left: 95px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.furniture-section {
+  padding: 206px 20px;
+}
+
+.text-header {
+  text-align: left;
+  margin-top: 206px;
+  padding-left: 95px;
+}
+
+.text-header h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.text-header h1 {
+  font-size: 120px;
+  margin: 0;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 2px #000;
+}
+
+
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  max-width: 1009px;
+  height: 577px;
+  margin: 50px auto 0;
+}
+
+.background-image {
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  position: absolute;
+  background: #fff;
+  padding: 40px;
+  width: 449px;
+  height: 199px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  align-items: center;
+  gap: 20px;            
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.18);
+}
+
+.circle {
+  width: 51px;
+  height: 51px;
+  background: #F7515C0D;
+  color: #F7515C;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  flex-shrink: 0; 
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card h3 {
+  color: #282A30;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+
+.card p {
+  font-family: Nunito;
+  color: #282A3066;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: left;
+  margin: 0;
+}
+
+
+
+.card-1 {
+  top: 15%;
+  left: -120px;
+
+}
+
+.card-2 {
+  top: -9%;
+  right: 41px;
+  
+}
+
+.card-3 {
+  bottom: -15%;
+  right: -70px;
+}
+
+
+.productpg4 {
+  padding: 60px 20px;
+}
+
+.product-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.textpg4 h3 {
+  font-family: Montserrat;
+font-weight: 600;
+font-size: 40px;
+line-height: 100%;
+
+}
+
+.bigproduct {
+  font-weight: 700;
+  -webkit-text-stroke: 2px rgb(71, 68, 68);
+  color: transparent;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.buttonarow{
+  display: flex;
+  gap: 30px;            
+  transform: translateX(-137px);
+}
+
+.arrow-btn {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+  border-radius: 6px;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.arrow-btn:hover {
+  background: #000;
+  color: #fff;
+  transform: scale(1.1); 
+}
+
+.listpg4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 36px;
+  padding: 0 5px;
+  
+   background: white;
+  
+}
+
+.product-itempg4 img {
+  width: 100%;                 
+  height: 220px;               
+  object-fit: cover;           
+  border-radius: 8px;          
+  margin-bottom: 12px;      
+  
+}
+
+.product-itempg4 {
+  background: #fff;             
+  border-radius: 12px;          
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+  text-align: center;           
+  padding: 20px;                
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.product-itempg4:hover {
+  transform: translateY(-5px);  
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.product-itempg4 h4 {
+  margin-top: 12px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+}
+
+.price {
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+
+
+.stair {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.Try-text {
+  max-width: 400px;
+}
+
+.Try-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.Try-text h1 span {
+    font-weight: 700;
+  -webkit-text-stroke: 2px rgb(71, 68, 68);
+  color: transparent;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 100px;
+}
+.Try-text h1 strong {
+  font-weight: bold;
+   font-size: 100px;
+  color: #000;
+}
+
+.explore{
+    background-color: #F7515C;
+    border: none;
+    color: white;
+    width: 240px;
+    height: 90px;
+    left: 95px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 22px;
+    transition: 0.6s all ease;
+    cursor: pointer;
+    margin-top: 65px;
+ }
+
+ .explore:hover{
+    background: black;
+    transition: 0.6s all ease;
+ }
+
+.stair img {
+  max-width: 480px;
+  height: auto;
+  border-radius: 6px;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer div {
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  font-family: SF Pro Display;
+  font-weight: 600;
+  font-size: 26px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 1px;
+
+}
+
+footer ul {
+  list-style: none;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+
+footer ul li {
+  margin-bottom: 6px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #282A30CC;
+  transition: color 0.2s;
+}
+
+footer ul li a:hover {
+  color: #f04c4c;
+}
+
+section {
+  margin-bottom: 206px;
+}
